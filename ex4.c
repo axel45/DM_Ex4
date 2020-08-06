@@ -15,12 +15,12 @@ int main(void) {
     printf("Who are you?\n");
     scanf("%s", str);
     printf("Hello, %s!\n", str);
-    
+
     for(int i = 1; i <= 3; i++) {
         printf("Round %d: ", i);
 
         int num = rand() % 2;
-        
+
         switch(num) {
             case HEADS:
                 printf("Heads\n");
@@ -40,6 +40,6 @@ int main(void) {
     } else {
         printf("%s lost!\n", str);
     }
-    
+
     return 0;
 }
