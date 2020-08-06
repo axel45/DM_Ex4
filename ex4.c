@@ -36,9 +36,9 @@ int main(void) {
     printf("Heads: %d, Tails: %d\n", headsCount, tailsCount);
 
     if(headsCount > tailsCount) {
-        printf("%s won!", str);
+        printf("%s won!"\n, str);
     } else {
-        printf("%s lost!", str);
+        printf("%s lost!\n", str);
     }
     
     return 0;
